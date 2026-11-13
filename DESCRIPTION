@@ -1,13 +1,14 @@
 Package: smoother
 Type: Package
 Title: Functions Relating to the Smoothing of Numerical Data
-Version: 1.3
-Date: 2024-04-03
-Author: Nicholas Hamilton
+Version: 1.3.9001
+Author: Nicholas Hamilton [aut, cre]
 Maintainer: Nicholas Hamilton <n.hamilton@unsw.edu.au>
+Authors@R: person(given = "Nicholas", family = "Hamilton", role = c("aut", "cre"), email = "n.hamilton@unsw.edu.au")
 Description: A collection of methods for smoothing numerical data, commencing
     with a port of the Matlab gaussian window smoothing function. In addition,
     several functions typically used in smoothing of financial data are included.
+    Compatibility updates by Renova.
 License: GPL-2
 Depends: TTR(>= 0.22)
 Collate: 'onLoad.R' 'smoother-package.R' 'functions.R'
